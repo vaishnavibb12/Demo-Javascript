@@ -95,3 +95,14 @@
 // };
 // let eeee = person.fullName();
 // console.log(eeee);
+
+// const names = "soham";
+// if (names == "vaishnvi") {
+//   console.log("hi vaishnvi");
+// } else {
+//   console.log("who r u");
+// }
+
+const a = 2;
+const b = "2";
+console.log(a === b);
