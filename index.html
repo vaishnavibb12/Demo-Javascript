@@ -16,6 +16,76 @@
       });
     </script> -->
 
+    <!-- <h2>What Can JavaScript Do?</h2>
+    <button id="hts">Click</button>
+    <button id="bts">Me</button>
+    <p id="demo"></p>
+    <script>
+      let x = 5;
+
+      let y = 2;
+
+      let z = x + y;
+      const btn = document.getElementById("hts");
+      const btn1 = document.getElementById("bts");
+
+      const xyz = () => {
+        document.getElementById("demo").innerHTML = "The sum of x + y is: " + z;
+      };
+      btn.addEventListener("click", xyz);
+      btn1.addEventListener("click", xyz);
+    </script> -->
+
     <!-- <script src="day1.js"></script> -->
+
+    <!-- <h1>JavaScript Functions</h1>
+    <button id="jf">temperature</button>
+
+    <p id="demo"></p>
+    <script>
+      function toCelsius(fahrenheit) {
+        return fahrenheit - 32;
+      }
+      const tem = document.getElementById("jf");
+      tem.addEventListener("click", () => {
+        document.getElementById("demo").innerHTML =
+          "The temperature is " + toCelsius(77) + " Celsius.";
+      });
+    </script> -->
+
+    <!-- <h1>JavaScript Functions</h1>
+
+    <p id="demo"></p>
+    <script>
+      function toCelsius(fahrenheit) {
+        return fahrenheit - 32;
+      }
+      let text1 = "The temperature is " + toCelsius(77) + " Celsius.";
+      document.getElementById("demo").innerHTML = text1;
+    </script> -->
+
+    <!-- <h1>JavaScript Objects</h1>
+    <h2>Creating an Object</h2>
+
+    <p id="demo"></p>
+
+    <script>
+      const car = { type: "Fiat", model: "500", color: "white" };
+
+      document.getElementById(
+        "demo"
+      ).innerHTML = `the car type is ${car.type}, ${car.model}, and ${car.color} `;
+    </script> -->
+
+    <!-- <h1>JavaScript String Operators</h1>
+
+    <p id="demo"></p>
+
+    <script>
+      let text1 = "2";
+      let text2 = "0";
+      let result = text1 < text2;
+      document.getElementById("demo").innerHTML = "Is A less than B? " + result;
+    </script> -->
   </body>
 </html>
